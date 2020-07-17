@@ -24,4 +24,11 @@ package com.drturner.leetcode;
         printPre(treeNode.left);
         printPre(treeNode.right);
     }
- }
+
+    @Override
+    public String toString() {
+        return "TreeNode{" +
+                "val=" + val +
+                '}';
+    }
+}
